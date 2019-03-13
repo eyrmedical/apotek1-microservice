@@ -1,0 +1,20 @@
+{
+  "name": "apotek1-vaksine-aapningstider",
+  "version": "1.0.0",
+  "description": "\"Enkel REST-server for åpningstider og status for vaksine hos Apotek 1\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-rate-limit": "^3.4.0",
+    "marked": "^0.6.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}
